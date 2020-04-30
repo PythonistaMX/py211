@@ -1,5 +1,7 @@
 import os
 
+os.environ["DJANGO_ALLOW_ASYNC_UNSAFE"] = "true"
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -11,6 +13,7 @@ SECRET_KEY = 'u-e8u-a-y!%oeerca9e@=x&i+8d@b%^g@)@^sg2=6do(@7#u&x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+
 
 ALLOWED_HOSTS = []
 
