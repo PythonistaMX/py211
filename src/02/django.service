@@ -1,0 +1,17 @@
+[Unit]
+Description=Shell Plus Notebook
+After=jupyter.service
+
+[Service]
+
+WorkingDirectory=/opt/oi/py211/tutorial
+Type=simple
+PIDFile=/run/shell_plus.pid
+ExecStart=/home/oi/shell_plus.sh
+User=oi
+Group=oi
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
