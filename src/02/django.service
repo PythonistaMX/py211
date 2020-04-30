@@ -1,9 +1,7 @@
 [Unit]
 Description=Shell Plus Notebook
-After=jupyter.service
 
 [Service]
-
 WorkingDirectory=/opt/oi/py211/tutorial
 Type=simple
 PIDFile=/run/shell_plus.pid
