@@ -1,2 +1,1 @@
-# py211
-Curso de TDD con Python y Django
+# py211 Desarrollo dirigido por pruebas con Python y Django
